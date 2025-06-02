@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+  <!-- Navbar -->
+  <nav class="fixed w-full bg-white shadow-md z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#hero" class="text-2xl font-bold text-indigo-600 hover:text-indigo-700">Najir hussain</a>
+      <ul class="flex space-x-6 text-gray-700 font-medium">
+        <li><a href="#about" class="hover:text-indigo-600">About</a></li>
+        <li><a href="#skills" class="hover:text-indigo-600">Skills</a></li>
+        <li><a href="#projects" class="hover:text-indigo-600">Projects</a></li>
+        <li><a href="#contact" class="hover:text-indigo-600">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero" class="min-h-screen flex flex-col justify-center items-center text-center px-6 md:px-0 pt-24">
+    <h1 class="text-5xl md:text-7xl font-extrabold mb-4 text-indigo-600">Najir hussain</h1>
+    <p class="text-xl md:text-2xl max-w-xl text-gray-700 mb-8">I build clean, modern websites with Tailwind CSS and love frontend development.</p>
+    <a href="#projects" class="bg-indigo-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition">See My Work</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="max-w-4xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center md:space-x-12">
+    <img
+      src="c:\Users\najir\Pictures\picture\WhatsApp Image 2025-05-30 at 22.00.27_3f44e73f.jpg"
+      alt="My Profile Picture"
+      class="w-48 h-48 rounded-full object-cover mb-6 md:mb-0 shadow-lg"
+    />
+    <div>
+      <h2 class="text-3xl font-bold mb-6 border-b-4 border-indigo-600 inline-block pb-1">About Me</h2>
+      <p class="text-gray-700 text-lg leading-relaxed">
+        Hello! I'm a frontend developer passionate about building beautiful, accessible websites using the latest technologies like Tailwind CSS, React, and JavaScript.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="bg-white py-16">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-8 border-b-4 border-indigo-600 inline-block pb-1">Skills</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div class="p-4 bg-indigo-50 rounded-lg shadow hover:shadow-lg transition">
+          <p class="font-semibold text-indigo-600">HTML5</p>
+        </div>
+        <div class="p-4 bg-indigo-50 rounded-lg shadow hover:shadow-lg transition">
+          <p class="font-semibold text-indigo-600">CSS3</p>
+        </div>
+        <div class="p-4 bg-indigo-50 rounded-lg shadow hover:shadow-lg transition">
+          <p class="font-semibold text-indigo-600">JavaScript</p>
+        </div>
+        <div class="p-4 bg-indigo-50 rounded-lg shadow hover:shadow-lg transition">
+          <p class="font-semibold text-indigo-600">Java</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="max-w-5xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold mb-8 border-b-4 border-indigo-600 inline-block pb-1">FitnessManagement System</h2>
+    <div class="grid md:grid-cols-2 gap-10">
+
+      <div class="bg-white rounded-lg shadow-lg hover:shadow-xl transition p-6 flex flex-col md:flex-row items-center">
+          <h3 class="text-xl font-semibold mb-2 text-indigo-600">Project One</h3>
+          <p class="text-gray-700 mb-4">Java (Core Java, Swing/AWT for GUI)</p>
+          <a href="#" class="text-indigo-600 hover:underline font-semibold" target="_blank" rel="noopener">https://github.com/najirhussain029/FitTrack</a>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-lg hover:shadow-xl transition p-6 flex flex-col md:flex-row items-center">
+        <div>
+          <h3 class="text-xl font-semibold mb-2 text-indigo-600">Project Two</h3>
+          <p class="text-gray-700 mb-4">Calculator</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-indigo-600 text-white py-16">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+      <p class="mb-8 text-lg">Najirexpobd@gmail.com</p>
+      <a href="mailto:your.email@example.com" class="inline-block bg-white text-indigo-600 font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition">Email Me</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 text-center text-gray-600 py-6">
+    &copy; 2025 MyName. All rights reserved.
+  </footer>
+
+</body>
+</html>
